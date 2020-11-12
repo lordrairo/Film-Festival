@@ -1,0 +1,119 @@
+
+
+
+.jumbotron{
+	margin-top: 20px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/ff/Downtown_Boston_WV_banner.jpg);
+	background-size: cover;
+	background-color: black;
+
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+     
+   background-color: rgba(0,0,0,.5);
+   	color: white;
+   
+}
+
+
+.card-body {
+    padding: 0.5rem;
+}
+#section{
+	  background-color: rgba(0,0,0,.75);
+}
+
+.uppertext{
+	color: white;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+}
+.cardSet1{
+	background-color: #AD8A56;
+	 opacity: .8;
+}
+
+.cardSet2{
+	background-color: #AF9500;
+	 opacity: .8;
+}
+
+.cardSet3{
+	background-color:  #B4B4B4;
+	 opacity: 0.8;
+}
+.display-4 {
+   background-color: rgba(0,0,0,.5);
+  	color: white;
+  	
+}
+.card-title
+{
+	background-color: rgba(0,0,0,.5);
+  	color: white;
+}
+.card-link
+{
+	background-color: rgba(0,0,0,.5);
+  	color: white;
+}
+.panel-title{
+	color: white;
+}
+.nmbroftickets{
+	color: white;
+}
+
+.map {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+.table{
+	color: white;
+}
+footer, .push {
+	bottom:0;
+	width:100%;  
+	background:black;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.footer_img{
+	width: max-content;
+    margin: 0 auto;
+    z-index: 99999;
+}
+.footer_img a{
+	color: white;
+}
+
+
+.news{
+		 background-image: url(https://images.wallpapersden.com/image/download/johnny-depp-in-fantastic-beasts-2018-movie_a2hna2uUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+		 background-width: 100%!important;
+}
+.news1{
+
+	    width: 33%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-area: main;
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+	color: white;
+    max-width: 100%;
+    margin: auto;
+    }

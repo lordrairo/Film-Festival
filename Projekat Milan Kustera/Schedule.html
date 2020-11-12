@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="styles.css" type="text/css" rel="stylesheet">
+
+
+
+	<link rel="icon" href="icon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>
+		Schedule
+
+	</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home </a>		
+      </li>
+      <li class="nav-item active">
+      <a class="nav-link" href="Register.html">Register </a>		
+      </li>
+      <li class="nav-item active">
+      <a class="nav-link" href="Schedule.html">Schedule</a>		
+      </li>
+      <li class="nav-item active">
+      <a class="nav-link" href="News.html">News</a>		
+      </li>
+    </ul>
+
+</nav>
+<div class="map">
+	<div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+		<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://maps.google.com/maps?q=Boston%20Public%20Garden&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+	</div>
+</div>
+
+
+
+
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">August 5th</th>
+      <th scope="col">August 6th</th>
+      <th scope="col">August 7th</th>
+      <th scope="col">August 8th</th>
+    </tr>
+  </thead>
+  
+  
+  <tbody>
+    <tr>
+      <td> 
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#petiavgust1">V for Vendetta</a></strong>  <em>18:00-20:10</em>
+		</div>
+	  </td>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sestiavgust1">Star Wars: A New Hope</a></strong>  <em>18:00-20:15</em>
+		</div>
+	  </td>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sedmiavgust1">Fight club</a></strong>  <em>18:00-20:00</em>
+		</div>
+	  </td>
+	  <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#osmiavgust1">My Neighbor Totoro</a></strong> <em>18:00-19:30</em>
+		</div>			
+	  </td>
+    </tr>
+    <tr>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#petiavgust2">The Sixth Sense</a></strong> <em>20:30-22:15</em>
+		</div>
+	  </td>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sestiavgust2">Star Wars: The Empire Strikes Back</a></strong> <em>20:30-22:15</em>
+		</div>
+	  </td>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sedmiavgust2">Limitless</a></strong> <em>20:20-22:10</em>
+		</div>
+	  </td>
+	  <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#osmiavgust2">The Tale of Princess Kaguya</a></strong> <em>19:50-22:10</em>
+		</div>			
+	  </td>
+    </tr>
+    <tr>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#petiavgust3">Kill Bill: Vol. 1</a></strong> <em>22:20-00:00</em>
+		</div>
+	  </td>
+      <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sestiavgust3">Star Wars: Return of The Jedi</a></strong> <em>22:40-00:00</em>
+		</div>
+	  </td>
+	  <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#sedmiavgust3">The Butterfly Effect</a></strong> <em>22:30-00:30</em>
+		</div>			
+	  </td>
+	  <td>
+		<div class="film">
+			<strong><a data-toggle="modal" data-target="#osmiavgust3">When Marnie Was There</a></strong> <em>22:30-00:10</em>
+		</div>			
+	  </td>
+    </tr>
+	
+  </tbody>
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="petiavgust1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">V for Vendetta</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0245429/">IMDb score: 8.6</a></em></div>
+
+      </div>
+      <div class="modal-body">
+			In a future British tyranny, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow it with the help of a young woman.
+
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/lSA7mAHolAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="petiavgust2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Sixth Sense (2010)</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0167404/?ref_=tt_sims_tt"></a></em></div>
+      </div>
+      <div class="modal-body">
+			A boy who communicates with spirits seeks the help of a disheartened child psychologist.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/3-ZP95NF_Wk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="petiavgust3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Kill Bill: Vol. 1</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0266697/?ref_=tt_sims_tt"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.
+			<iframe width="100%" height="479" src="https://www.youtube.com/embed/7kSuas6mRpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ 
+
+
+
+<div class="modal fade" id="sestiavgust1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Star Wars: A New Hope</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0076759/?ref_=nv_sr_srsg_7"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/vZ734NWnAHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sestiavgust2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Star Wars: The Empire Strikes Back</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_srsg_0"></a></em></div>
+      </div>
+      <div class="modal-body">
+			After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/JNwNXF9Y6kY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sestiavgust3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Star Wars: Return of The Jedi</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0086190/?ref_=tt_sims_tt"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.
+			<iframe width="100%" height="305" src="https://www.youtube.com/embed/5UfA_aKBGMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="modal fade" id="sedmiavgust1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fight Club</h5>
+		<div class="score"><em style="text-align:right;"> <a href="https://www.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0"></em></div>
+
+      </div>
+      <div class="modal-body">
+			An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/qtRKdVHc-cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sedmiavgust2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Limitless</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt1219289/?ref_=nv_sr_srsg_0"></a></em></div>
+      </div>
+      <div class="modal-body">
+			With the help of a mysterious pill that enables the user to access 100% of his brain abilities, a struggling writer becomes a financial wizard, but it also puts him in a new world with lots of dangers.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/4TLppsfzQH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sedmiavgust3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> The Butterfly Effect </h5>
+		<div class="score"><em style="text-align:right;"><a href="https://www.imdb.com/title/tt0289879/?ref_=tt_sims_tt"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			Evan Treborn suffers blackouts during significant events of his life. As he grows up, he finds a way to remember these lost memories and a supernatural way to alter his life by reading his journal.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/B8_dgqfPXFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+	  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade" id="osmiavgust1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">My Neighbor Totoro (1988)</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://myanimelist.net/anime/523/Tonari_no_Totoro"></a> <a href="https://myanimelist.net/anime/523/Tonari_no_Totoro"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/92a7Hj0ijLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="osmiavgust2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Tale of the Princess Kaguya (2013)</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://myanimelist.net/anime/16664/Kaguya-hime_no_Monogatari"></a> <a href="https://www.imdb.com/title/tt2576852/?ref_=nv_sr_srsg_2"></a></em></div>
+      </div>
+      <div class="modal-body">
+			Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthralls all who encounter her, but ultimately she must confront her fate, the punishment for her crime.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/W71mtorCZDw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="osmiavgust3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">When Marnie Was There (2014)</h5>
+		<div class="score"><em style="text-align:right;"><a href="https://myanimelist.net/anime/21557/Omoide_no_Marnie"></a> <a href="https://www.imdb.com/title/tt3398268/?ref_=nv_sr_srsg_0"></a></em></div>
+
+      </div>
+      <div class="modal-body">
+			Due to 12 y.o. Anna's asthma, she's sent to stay with relatives of her guardian in the Japanese countryside. She likes to be alone, sketching. She befriends Marnie. Who is the mysterious, blonde Marnie.
+			<iframe width="100%" height="350" src="https://www.youtube.com/embed/jjmrxqcQdYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+	
+    <footer>
+		<div class="footer_img">
+			<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/home" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+		</div>
+    </footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
